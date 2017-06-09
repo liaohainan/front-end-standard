@@ -10,13 +10,5 @@
 
 * 使用方法（需要在服务器环境打开）
 
-
-```bash
-在当前目录执行以下命令即可（前提已安装node环境）
-npm i -g http-server
-hs -o
-
-浏览器(IE10及以上)打开localhost:8080
-
-其他php .net java请自行搭建环境使用
-```
+感谢YY UED
+基于docsify构建
