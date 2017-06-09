@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./assets/googleapis.css">
+    <link rel="stylesheet" href="./assets/vue.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./about.html" style="color:red">页面无法正常显示请点击这里</a>
+    </nav>
+    <div id="app">加载中……</div>
+</body>
+<script>
+window.$docsify = {
+    name: '规范',
+    repo: '',
+    loadNavbar: false,
+    loadSidebar: true,
+    subMaxLevel: 3,
+    search: 'auto', // 默认值
+    search: [
+        '/', // => /README.md
+        '/md/html/guide', // => /guide.md
+        '/md/css/guide', // => /get-started.md
+        '/md/js/guide', // => /zh-cn/README.md
+    ],
+    // 完整配置参数
+    search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', // or 'auto'
+        placeholder: '搜索',
+        // 支持本地化
+        placeholder: {
+            '/md/': '搜索',
+            '/': '搜索'
+        },
+        noData: 'No Results!',
+        // 支持本地化
+        noData: {
+            '/md/': '找不到结果',
+            '/': 'No Results'
+        }
+    }
+}
+</script>
+<script src="./assets/docsify.min.js"></script>
+<script src="./assets/search.js"></script>
+
+</html>
